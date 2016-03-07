@@ -11,51 +11,51 @@ public class LifeFunction {
 		{case 1:		//1 - VIDEO
 			lifeCalc -= 20;
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
-			System.out.println("You watched a video about dolphins and in the process lost 20% battery life.");
+			System.out.println("You watched a video about dolphins and in the process lost 10% battery life.");
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			
 			return lifeCalc;
 			
-		case 2:			//2 - SOCIAL MEDIA
+		case 2:			//1 - SOCIAL MEDIA
 			lifeCalc -= 15;
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("Self absorbed...\n");
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("Self absorbed...\n");
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("Self absorbed...\n");
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("Funny picture!\n");
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("Self absorbed...\n");			
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("Self absorbed...\n");			
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("Self absorbed...\n");			
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("Funny Video!\n");			
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("well, that's social media for you, what were you expecting...\n"+"-15% Battery.\n");
 			
@@ -66,23 +66,23 @@ public class LifeFunction {
 		case 3:			//3 - NEWS
 			lifeCalc -= 10;
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("Politicians this, politicians that...\n\n");	
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("War here, war there...\n\n");			
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("Be careful of this, be careful of that...\n\n");	
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("Goodnight America!\n"+"-10% Battery\n");			
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			return lifeCalc;	
 			
@@ -102,11 +102,11 @@ public class LifeFunction {
 			
 			System.out.println("Lets crush some crandy! or...Blow some stuff up! or...Spin the Slots!\n");	
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("Lets Blow some stuff up!\n");		
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("BOOM!\n");			
 			
@@ -136,27 +136,27 @@ public class LifeFunction {
 			
 		case 6:			//6 - CHARGE
 			lifeCalc += 15;			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("\n... + 3%");
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("\n... + 6%");
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("\n... + 9%");	
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
-			System.out.println("\n... + 12%");	
+			System.out.println("\n... + 11%");	
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			System.out.println("\n... + 15%");	
 			
-			try {TimeUnit.SECONDS.sleep(2);
+			try {TimeUnit.SECONDS.sleep(1);
 			}catch(InterruptedException ex) {}
 			return lifeCalc;
 		case 7:			//switch to human mode.
